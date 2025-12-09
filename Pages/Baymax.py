@@ -38,7 +38,7 @@ st.markdown("<h1 class='baymax-header'>🤖 Baymax </h1>", unsafe_allow_html=Tru
 st.markdown("<h3 class='baymax-subheader'>Your Healthcare Companion</h3>", unsafe_allow_html=True)
 
 # Initialize Groq client
-API_KEY = os.getenv("GROQ_API_KEY", "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")
+API_KEY = os.getenv("GROQ_API_KEY", "")
 if not API_KEY:
     st.error("No Groq API key provided. Please set your API key.")
     st.stop()
